@@ -1,0 +1,51 @@
+header{max-width:1920px; background: url("../img/header_bg.png") repeat-x;}
+header .top { height: 32px;}
+header .top ul{}
+header .top ul li{color: #999; font-size: 14px; line-height:32px; position: relative; padding-left: 18px;}
+header .top ul li .sent{ background: url("../img/icon.png") no-repeat; position: absolute;top: 0;left: 0; width: 11px; height: 28px; }
+header nav{margin: 32px 0;}
+header nav ul.nav li a{padding:15px 30px; color: #333333;}
+header nav .navbar-brand{padding-top: 0;}
+nav div#bs-example-navbar-collapse-1.collapse.navbar-collapse{ height: 50px;}
+
+/*新闻区域 */
+.wrap .col-md-4 dl{ margin-top: 34px;}
+.wrap .col-md-4 dl dd h3{height: 26px; font-size: 18px; line-height: 18px;color: #666666; margin: 16px 0;}
+.wrap .col-md-4 dl dd p{font-size: 12px; line-height: 20px; color: #666666; width: 88%; margin: 0 auto;}
+ h2.hearder2{color: #262626; font-size: 20px; font-weight: bold; height:20px; line-height: 20px; margin:34px 0 16px;}
+/*新闻动态*/
+.content{max-width: 1920px; background: #e5e5e5;}
+.content h2,.content_bottom h2{ font-size: 20px; height: 31px; line-height: 31px; color: #262626;
+    font-weight:bold;}
+.content .col-md-4 h3{width:282px; height:42px; font-size: 18px; line-height: 42px; color: #333; border-bottom: 6px solid #999; text-indent: 16px;}
+.content .col-md-4 dl{}
+.content .col-md-4 dt{ color: #333; font-size: 12px; height: 26px; line-height: 26px;}
+.content .col-md-4 dd{ color: #333; font-size: 14px; line-height: 18px; border-bottom: 1px solid #999; width: 282px;}
+
+
+.content_bottom{background: #fff;  margin-bottom: 60px;}
+.content_bottom .col-md-3 dt{font-size: 16px; height: 30px; line-height: 30px; color: #333;}
+.content_bottom .col-md-3 dl{ width: 90%; margin: 0 auto;}
+.content_bottom .col-md-3 dd{ position: relative; margin-top: 16px;}
+.content_bottom .col-md-3 dd p{ height: 54px; color: #888; font-size: 14px; line-height: 20px;}
+.content_bottom .col-md-3 dd a{position: absolute; top:56px; left: 0; font-size: 12px; height: 30px; line-height: 30px; color: #666;}
+.content_bottom .col-md-3 dd img{margin-top: 42px;}
+
+/*底部*/
+footer{background: #333;}
+footer .container{ position: relative;}
+footer ul{ padding: 8px 0; margin-right: 60px;}
+footer ul li{ color: #999; font-size: 11px; height: 25px; line-height: 25px;}
+footer p{color: #999; font-size: 11px; height: 20px; line-height: 20px;  margin-right: 60px;}
+footer img{ display: block; position: absolute; top: 16px; right: 0;}
+
+@media (max-width: 350px) {
+    header .navbar-header .navbar-brand img{ height: 40px; padding-top: 5px;
+         } }
+@media (min-width: 768px) and (max-width: 996px){
+    header nav ul.nav li a{padding:15px 10px; color: #333333;}
+}
+@media (max-width: 996px) {
+    header nav{margin: 26px 0;}
+
+}
